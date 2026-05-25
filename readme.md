@@ -64,7 +64,7 @@ kubectl apply -f https://raw.githubusercontent.com/dockur/windows/refs/heads/mas
 
 ##### Via Github Codespaces:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/dockur/windows)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/xsyanic/dockur-windows)
 
 ##### Via a graphical installer:
 
@@ -172,7 +172,7 @@ kubectl apply -f https://raw.githubusercontent.com/dockur/windows/refs/heads/mas
 
 ### How do I configure the username and password?
 
-  By default, a user called `Docker` is created and its password is `admin`.
+  By default, a user called `Desktop` is created and its password is `admin`.
 
   If you want to use different credentials during installation, you can configure them in your compose file:
 

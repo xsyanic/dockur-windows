@@ -1584,7 +1584,7 @@ prepareInstall() {
   local password=""
 
   [ -n "$USERNAME" ] && username=$(echo "$USERNAME" | sed 's/[^[:alnum:]@!._-]//g')
-  [ -z "$username" ] && username="Docker"
+  [ -z "$username" ] && username="Desktop"
 
   [ -n "$PASSWORD" ] && password=$(echo "$PASSWORD" | sed 's/"//g')
   [ -z "$password" ] && password="admin"
